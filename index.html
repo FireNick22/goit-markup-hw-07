@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
@@ -47,7 +47,7 @@
         </section>
         <section class="about">
             <div class="container">
-                <h2 class="container__titel container__titel--visually-hidden">Нашы преимущества</h2>
+                <h2 class="container__titel visually-hidden">Нашы преимущества</h2>
                 <ul class="about-list list">
                     <li class="about-list__item">
                         <div class="about-list__wrap">
@@ -320,7 +320,7 @@
         <div class="container footer__container">
             <div class="footer-contact">
                 <a href="" lang="en" class="logo link">Web<span class="logo__park-light">Studio</span></a>
-                <address class="address">
+                <address class="address address--top-indent">
                     <ul class="address__list list">
                         <li class="address__item"><a href="https://goo.gl/maps/3HotEXgrahbwHq118" target="_blank"
                                 rel="noopener nofollow noreferrer" class="address__map link">г. Киев, пр-т Леси Украинки,
@@ -415,7 +415,7 @@
                     <textarea name="comments" id="comments" placeholder="Введите текст" class="form__comments"></textarea>
                 </div>
                 <div class="checkbox form__checkbox">
-                    <input type="checkbox" name="accord" id="accord" class="checkbox__policy checkbox__policy--visually-hidden">
+                    <input type="checkbox" name="accord" id="accord" class="checkbox__policy visually-hidden">
                     <label for="accord" class="checkbox__label">
                         <span class="checkbox__check-icon">
                             <svg class="checkbox__icon" width="11" height="8">
@@ -423,7 +423,7 @@
                             </svg>
                         </span>
                         <span>Соглашаюсь с рассылкой и принимаю <a href="" target="_blank" rel="noopener nofollow noreferrer"
-                            class="form-checkbox__check-link">Условия договора</a></span> 
+                            class="checkbox__check-link">Условия договора</a></span> 
                     </label>
                 </div>
                 <button type="submit" class="btn form__btn">Отправить</button>
